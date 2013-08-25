@@ -107,7 +107,7 @@ div.summary {
 }
 
 .sidebar .wrapper {
-	width: 108%;
+	width: 100%;
 }
 
 .sidebar h3 {
@@ -171,7 +171,7 @@ div.summary {
 }
 
 .sidebar .zen-resources {
-	padding-bottom: 100%;
+	padding-bottom: 63%;
 }
 
 .sidebar .zen-resources li a {
