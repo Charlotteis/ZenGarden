@@ -1,0 +1,210 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100&subset=latin,latin-ext);
+
+body {
+	background-color: #fffff7;
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+body a {
+	color: #9DBF8E;
+}
+
+.page-wrapper {
+
+}
+
+.intro {
+	background-image: url('img/background.jpg')
+}
+
+.intro header {
+	display: block;
+	height: 200px;
+	padding-left: 50px;
+	text-align: center;
+	padding-top: 50px;
+	color: #ffffff;
+}
+
+.intro h1 {
+	font-size: 32px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+.intro h2 {
+	font-style: italic;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}
+
+
+div.summary {
+	margin-top: 25px;
+	border-left: 2px solid #c8c8c8;
+	margin-left: 50px;
+	padding-left: 50px;
+	margin-bottom: 25px;
+	font-size: 0.85em;
+}
+
+
+.summary , .preamble, .benefits, .participation, .explanation{
+	float: left;
+	clear: left;
+	width: 50%;
+	padding-left: 50px;
+  }
+
+.requirements p {
+	float: left;
+	clear: left;
+	width: 50%;
+	padding-left: 50px;
+}
+
+.requirements h3 {
+	margin: 0;
+	float: left;
+	clear: left;
+	width: 50%;
+	padding-left: 50px;
+}
+
+.requirements p:last-child {
+	background: #D0D991;
+	width: auto;
+	padding: 1em 22%;
+	float: left;
+	clear: left;
+	text-align: center;
+	margin-bottom: 0px;
+	padding-bottom: 3em;
+	padding-top: 3em;
+	box-shadow: inset 0 0 100px rgba(255, 255, 255, 0.3);
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+.requirements p:last-child a {
+	color: #55736D;
+	text-decoration: none;
+}
+.requirements p:nth-child(5) {
+	padding-bottom: 25px;
+}
+
+.sidebar {
+	position: absolute; 
+	top: 250px;
+	right: 0px;
+	background-color: #9DBF8E;
+	width: 30%;
+
+}
+
+.sidebar .wrapper {
+	width: 108%;
+}
+
+.sidebar h3 {
+	padding-top: 20px;
+	font-size: 1.7em;
+	text-align: center;
+	display: none;
+}
+
+
+.sidebar ul {
+	list-style: none;
+	padding: 0px;
+}
+
+.sidebar .design-selection li {
+	line-height: 2em;
+	text-align: center;
+	padding-bottom: 1.5em;
+	padding-top: 1.5em;
+	font-size: 1em;
+	border-bottom: 1px dashed #55736D;
+	color: #FFFFF7;
+	font-style: italic;
+	font-family: 'Times New Roman', serif;
+}
+
+
+.sidebar li .designer-name {
+	font-style: normal;
+	color: #697F5F;
+}
+
+.sidebar li .design-name {
+	font-style: normal;
+	color: #34402F;
+	font-variant: small-caps;
+}
+
+.sidebar li a.design-name {
+	display:block;
+}
+
+.sidebar .design-archives {
+	border-bottom: 1px dashed #55736D;
+}
+
+.sidebar .design-archives li {
+	line-height: 2em;
+	text-align: center;
+	padding-bottom: 1.5em;
+	padding-top: 1.5em;
+	font-size: 1em;
+	color: #FFFFF7;
+	font-style: normal;
+	font-family: 'Times New Roman', serif;
+}
+
+.sidebar .design-archives li a {
+	color: #34402F;
+}
+
+.sidebar .zen-resources {
+	padding-bottom: 100%;
+}
+
+.sidebar .zen-resources li a {
+	color: #34402F;
+}
+
+.sidebar .zen-resources li {
+	line-height: 2em;
+	text-align: center;
+	padding-bottom: 1.5em;
+	padding-top: 1em;
+	font-size: 1em;
+	color: #FFFFF7;
+	font-style: normal;
+	font-family: 'Times New Roman', serif;
+}
+
+
+footer {
+	clear: both;
+	padding: 1em;
+	background-color: #272D40;
+	text-align: center;
+	font-family: Georgia, sans-serif;
+}
+
+footer a {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	text-decoration: none;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+
+footer a:hover {
+	text-decoration: underline;
